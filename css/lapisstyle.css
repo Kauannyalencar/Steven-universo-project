@@ -1,0 +1,65 @@
+body {
+    font: normal 18px 'Arial';
+    margin: 0 ;
+    overflow: hidden;
+}
+
+header {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+ul {
+    width: 10%;
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
+    text-align: left;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+ul li a:hover{
+transition-duration: 0.5s;
+    transition: 0.2s;
+}
+.bg {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+div {
+   margin:0 auto;
+   max-width: 500px;
+   height: 60%;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 15px;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    width:50vw;
+    height:45%;
+}

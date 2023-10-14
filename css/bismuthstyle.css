@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color:rgb(146, 164, 164);
+    font: normal 18px arial;
+}
+
+@font-face {
+    font-family: 'Akira';
+    src: url(../fonts/Akira\ Expanded\ Demo.otf);
+}
+
+ul{ 
+    position: absolute;
+    padding-left: 15px;
+}
+
+ul li {
+    list-style: none;
+    background-color: rgb(151, 95, 138);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+ul li a {
+    color: rgb(248, 255, 250);
+    text-decoration: none;
+}
+
+
+.conteudo {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 500px;
+    background-color: rgb(151, 95, 138);
+    height: 380px;  
+    top: 80px;
+    left: 280px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+h1{
+    font-family: 'Akira';
+}
+
+img {
+    width: 150px;
+    height: 190px;
+}
